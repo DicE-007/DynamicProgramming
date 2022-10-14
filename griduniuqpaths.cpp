@@ -1,4 +1,4 @@
-//grid total paths
+//grid unique paths 2
 class Solution {
 public:
     int solve(int i,int j,vector<vector<int>>&grid){
@@ -67,7 +67,7 @@ public:
         // return solveTabu(m,n,grid);
         return solveTabuSo(m,n,grid);
     }
-    //grid unique paths
+    //grid unique paths sum
     class Solution {
 public:
     int helper(vector<vector<int>>grid,int i,int j,vector<vector<int>>&dp){
